@@ -1,0 +1,252 @@
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    display: block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+  text-decoration: underline;
+    color: black;
+  }
+  
+  .main {
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .container-fluid{
+      width: 100%;
+  }
+  .button1{
+    color: rgb(39, 15, 57);
+    background-color: white;
+    font-size: large;
+    width: 150px;
+    height: 50px;
+    border: none;
+  
+  }
+  .button1:hover{
+      background-color: rgb(221, 217, 217);
+  }
+  div.gallery {
+    margin: 5px;
+    display:block;
+    width:302px;
+  }
+  
+  
+  div.gallery img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(39, 15, 57);
+    font-size: 20px;
+  }
+  .button2{
+    color: rgb(39, 15, 57);
+    background-color: white;
+    font-size: large;
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(39, 15, 57);
+  
+  }
+  .button2:hover{
+      background-color:rgb(39, 15, 57);
+      color: white;
+  }
+  .centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .footer{
+    background-color: rgba(231, 227, 227, 0.901);
+    color: black;
+    overflow-x: hidden;
+  }
+  .fa-facebook {
+    background: black;
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+  }
+  .fa-twitter {
+    background:rgba(231, 227, 227, 0.901);
+    color:black;
+  }
+  .fa-instagram {
+    background:rgba(231, 227, 227, 0.901);
+    color:black;
+  }
+  @media (min-width:300px) and (max-width:767px){
+  .gallery{
+  text-align: center 50px;
+  }
+  img{
+      width: 100%;
+  }
+  .centered3{
+   position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-80%, -80%);
+    text-align: center;
+    color: white;
+  
+  }
+  .image{
+    padding-top: 60px;
+    height: 340px;
+  }
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    text-align: center;
+    color: white;
+  }
+  .col-bc{
+    border: none;
+  }
+  .col-bd{
+    border-bottom: 10px solid white;
+  }
+  .vertical-menu {
+    width: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color:rgba(231, 227, 227, 0.901);
+    color: black;
+    display: block;
+    padding: 8px;
+    padding-left: 140px;
+    text-decoration: none;
+  }
+  .btn {
+  margin-right: 300px;
+  margin-top: -40px;
+  }
+  .navbar-brand{
+  padding-left: 100px;
+  padding-top: -10px;
+  }
+  .ab{
+    margin-left:20px
+  }
+  }
+  @media (min-width:768px) and (max-width:991px){
+    .image{
+    padding-top: 50px;
+  }
+  h1{
+    font-size:70px;
+  }
+  .centered3{
+   position: absolute;
+    top: 70%;
+    left: 57%;
+    transform: translate(-70%, -70%);
+    text-align: center;
+    color: white;
+  }
+  .gallery{
+    padding-left: 200px;
+  }
+  div.desc{
+    padding-left: 70px;
+  }
+  .col-ab{
+  padding-top: 20px;
+  padding-left: 60px;
+  }
+  .centered1 {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .col-bd{
+    padding-left: 165px;
+    border-bottom: 10px solid white;
+  }
+  .vertical-menu {
+    width: 100px;
+  }
+  
+  .vertical-menu a {
+    background-color:rgba(231, 227, 227, 0.901);
+    color: black;
+    display: block;
+    padding: 8px;
+    padding-left: 450px;
+  
+    text-decoration: none;
+  }
+  .row1{
+    padding-left: 110px;
+  }
+  .btn {
+  margin-right: 470px;
+  margin-top: -40px;
+  }
+  .navbar-brand{
+  padding-left: 150px;
+  padding-top: -10px;
+  }
+  .col-bc{
+    border-left: 50px solid white;
+  }
+  
+  }
+  @media (min-width:320px) and (max-width:991px){
+  .gau{
+    display: none;
+  }
+  }
+  @media (min-width:768px) and (max-width:991px) {
+  
+  }
+  @media only screen and (min-width:991px){
+    .bcd{
+      display:none;
+    }
+  .col-bc{
+    border-left: 50px solid white;
+  }
+  .foot{
+    padding-left: 220px;
+  }
+  }
